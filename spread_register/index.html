@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册送5888元虚拟本金</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <!-- build:css css/app.css -->
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <!-- endbuild -->
+
+    <script type="text/javascript" src="//static.qianshengqian.com/asset/js/jquery.min.js"></script>
+    <script type="text/javascript" src="//static.qianshengqian.com/asset/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="//static.qianshengqian.com/asset/js/widgets/wxShare.js"></script>
+</head>
+<body>
+<div class="topBar">
+    <div class="logo"><img src="images/logo_120.png"></div>
+    <span>京东金融战略融资 恒丰银行资金存管</span>
+</div>
+<header>
+    <div class="banner"><img class="changePic" src="//static.qianshengqian.com/static/pages/spread_register/img/banner-1.png"></div>
+</header>
+<div class="tenWrap">
+    <div class="tenContent">
+        <div class="registerWrap">
+            <div class="registerForm telForm" id="telForm">
+                <div class="formRow telRow">
+                    <input type="tel" placeholder="输入手机号领取5888元虚拟本金" class="telInp" id="mobile" name="user[mobile]"
+                           maxlength="11">
+                </div>
+                <div class="registerForm smsForm" id="smsForm">
+                    <div class="formRow picCodeRow clearfix picCodeRow2">
+                        <input type="text" maxlength="6" placeholder="请输入图形验证码" class="smsInp fl" id="picCode">
+                        <div class="picCode fr">
+                            <img src="/activity/auth/captcha?mode=default" class="captcha" name="user[captcha]">
+                        </div>
+                    </div>
+                    <div class="formRow picCodeRow clearfix">
+                        <input type="text" maxlength="6" name="user[vcode]" placeholder="请输入短信验证码" class="smsInp fl"
+                               id="smsCode" text="false">
+                        <div class="picCode fr sendSms">
+                            <div class="sendCode button" id="sendCode">短信验证码</div>
+                        </div>
+                    </div>
+                    <div class="formRow" id="pwdRow">
+                        <input type="password" class="pwd" name="user[password]" id="pwd" placeholder="请设置您的登录密码"
+                               maxlength="32">
+                        <img src="//static.qianshengqian.com/static/pages/spread_register/img/pw1.png"
+                             class="pw-status hidePw">
+                        <img src="//static.qianshengqian.com/static/pages/spread_register/img/pw2.png"
+                             class="pw-status showPw">
+                    </div>
+                </div>
+                <p class="errorTip" id="telFormErr"></p>
+                <p class="agreeRow">点击领取即视为同意<a href="/m/act/terms">《钱牛牛用户协议》</a></p>
+                <div class="getBtn button" id="catchBtn">立即领取</div>
+                <div class="getBtn button" id="subBtn">立即领取</div>
+            </div>
+            <div class="registerForm" id="downForm">
+                <div class="receive-bag pos-r">
+                    <p class="pos-a receive-tip1">您已经成功领取！</p>
+                    <p class="pos-a receive-tip2">5888元虚拟本金</p>
+                    <p class="pos-a receive-tip3">专享新手宝15%历史年化收益率</p>
+                    <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.qsq.qianshengqian" class="pos-a getBtn downBtn-1"
+                       id="downBtn">下载钱牛牛APP马上赚钱</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="tenProducts">
+            <img src="images/red-envelope.png">
+            <h2>已有超过150万投资者选择钱牛牛</h2>
+        </div>
+        <div class="product-list">
+            <img src="images/pro-1-v2.png">
+            <!--<div class="product-item">-->
+                <!--<div class="product-title"><img-->
+                        <!--src="//static.qianshengqian.com/static/pages/spread_register/img/product-1.png"></div>-->
+                <!--<div class="product-info clearfix tac fs14">-->
+                    <!--<div class="product-desc product-desc1">-->
+                        <!--<p class="fs16">15%</p>-->
+                        <!--<p class="fs12">历史年化收益</p>-->
+                    <!--</div>-->
+                    <!--<div class="product-desc product-desc2 line-desc">7天持有期</div>-->
+                    <!--<div class="product-desc product-desc3">100元起投</div>-->
+                <!--</div>-->
+                <!--<div class="product-tip">送5888元虚拟本金</div>-->
+            <!--</div>-->
+            <!--<div class="product-item">-->
+                <!--<div class="product-title"><img-->
+                        <!--src="//static.qianshengqian.com/static/pages/spread_register/img/pro.png"></div>-->
+                <!--<div class="product-info clearfix tac fs14">-->
+                    <!--<div class="product-desc product-desc1">-->
+                        <!--<p class="fs16">6.5%</p>-->
+                        <!--<p class="fs12">历史年化收益</p>-->
+                    <!--</div>-->
+                    <!--<div class="product-desc product-desc2 line-desc">随时转让</div>-->
+                    <!--<div class="product-desc product-desc3">100元起投</div>-->
+                <!--</div>-->
+                <!--<div class="product-tip">实时提现</div>-->
+            <!--</div>-->
+            <!--<div class="product-item last-item">-->
+                <!--<div class="product-title"><img-->
+                        <!--src="images/product-3.png"></div>-->
+                <!--<div class="product-info clearfix tac fs14">-->
+                    <!--<div class="product-desc product-desc1">-->
+                        <!--<p class="fs16">11%</p>-->
+                        <!--<p class="fs12">历史年化收益</p>-->
+                    <!--</div>-->
+                    <!--<div class="product-desc product-desc2 line-desc">360天后免手续费转让</div>-->
+                    <!--<div class="product-desc product-desc3">500元起投</div>-->
+                <!--</div>-->
+                <!--<div class="product-tip">公务员担保贷</div>-->
+            <!--</div>-->
+        </div>
+        <div class="tenTime">
+            <div class="tenRule-bg">
+                <div class="tenRule">
+                    <h2>背景强大 安全透明</h2>
+                    <div class="line"></div>
+                    <ul class="tenRuleInfo">
+                        <li>腾讯、百度、点评系创业团队</li>
+                        <li>恒丰银行资金存管，平台不触碰资金</li>
+                        <li>蓝驰创投千万美元A轮融资<br/>元璟资本千万美元级B轮融资<br/>京东金融B+轮战略融资</li>
+                        <li>恒丰、宝付、融宝等第三方支付合作</li>
+                    </ul>
+                    <img class="dollar-symbol-3" src="images/dollar-symbol-3.png">
+                </div>
+            </div>
+            <ul class="tenReward">
+                <li>中国互联网金融协会首批会员单位</li>
+                <li>上海互联网金融行业协会会员单位</li>
+                <li>互联网大会2016中国互联网产品及服务创新奖</li>
+                <li>东方财经2016最佳创新金融奖</li>
+                <li>第五届金融创新峰会-2016年最佳风控技术奖</li>
+                <li>新闻晨报2016金罗盘评选-年度科技创新奖</li>
+            </ul>
+        </div>
+    </div>
+    <p class="about" style="padding-top: 0.1rem;margin-bottom: 0"><img
+            src="images/copyright.png"></p>
+</div>
+<div class="dialog-wrap">
+    <div class="dialog">
+        <p class="dialog-cont">您已经注册过了哦～</p>
+        <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.qsq.qianshengqian" class="dialog-btn fs14">打开APP参与最新活动</a>
+    </div>
+</div>
+<script type="text/javascript">
+    var docEl = document.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+                var _size = docEl.clientWidth / 320;
+                _size = _size > 2 ? 2 : _size;
+                docEl.style.fontSize = (100 * _size) + 'px';
+            };
+    window.addEventListener(resizeEvt, recalc, false);
+    document.addEventListener('DOMContentLoaded', recalc, false);
+
+    $(function () {
+
+        var h5_v = "h5_3.0.4";
+        var qsqtool = {
+          isEmpty: function (str) {
+            return typeof str === "undefined" || str === "";
+          },
+          setCookie: function (name, value, path, cycle) {
+            var expires = "";
+            if (!this.isEmpty(cycle)) {
+              var maxCycle = new Date();
+              maxCycle.setTime(maxCycle.getTime() + cycle * 1000);
+              expires = ";expires=" + maxCycle.toGMTString();
+            }
+            path = path ? ";path=" + path : "";
+            document.cookie = name + "=" + escape(value) + expires + path;
+          },
+
+          getCookie: function (name) {
+            var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+            if (arr = document.cookie.match(reg)) {
+              return unescape(arr[2]);
+            } else {
+              return '';
+            }
+          }
+        }
+
+        function getUa() {
+          if (getUa.ua) {
+            return getUa.ua;
+          }
+          var qsq_ua = qsqtool.getCookie("qsq_ua"), random, nowTime;
+          if (!qsq_ua) {
+            random = parseInt(Math.random() * 1e16);
+            nowTime = (new Date()).getTime();
+            qsq_ua = h5_v.replace(/\W/g, "") + random.toString(32) + nowTime.toString(32);
+            qsqtool.setCookie("qsq_ua", qsq_ua, "/", 311040000);
+          }
+          getUa.ua = qsq_ua;
+          return qsq_ua;
+        }
+
+        var ua = getUa();
+
+        new wxShareWidget({
+            title: "钱牛牛新手福利5888元虚拟本金+40元红包等你来领！",
+            desc: "恒丰银行资金存管，中国互联网金融协会首批会员单位，超过130万投资者的选择。",
+            link: location.href,
+            imgUrl: "https://static.qianshengqian.com/asset/mobile/image/wx_share.png"
+        });
+
+        var flage = false, subFlag = false, mobile;
+        var isft= location.href.indexOf('tpl=introduction') > -1;
+        if(isft){
+            $('.cont').show();
+        }else {
+            $('.about').addClass("about-1");
+            $('.cont').hide();
+
+        }
+        location.href.indexOf('btn=browser') > -1 && $('#downBtn').text('马上赚钱').attr('href', location.origin + '/mobile');
+        var ref = location.href.substr(location.href.indexOf('ref=') + 4);
+        var picIndex = location.href.match(/banner=(\d+)/)[1];
+        $('.changePic').attr('src', '//static.qianshengqian.com/static/pages/spread_register/img/banner-' + picIndex + '.png');
+
+        function setCookie(name, value, path, cycle) {
+            var expires = "";
+            if (cycle !== "" || cycle !== "undefined") {
+                var maxCycle = new Date();
+                maxCycle.setTime(maxCycle.getTime() + cycle * 1000);
+                expires = ";expires=" + maxCycle.toGMTString();
+            }
+            path = path ? ";path=" + path : "";
+            document.cookie = name + "=" + escape(value) + expires + path;
+        }
+
+        setCookie('ref', ref, "/");
+
+        //显示隐藏密码
+        $(".pw-status").click(function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            $(this).hide().siblings().show();
+            $("#pwd").prop("type") === "password" ? $("#pwd").prop({"type": "text"}) : $("#pwd").prop({"type": "password"});
+        });
+
+        //图片验证码刷新
+        function picCode() {
+            var el = $(this);
+            var src = "/activity/auth/captcha";
+            $.ajax({
+                url: src + "/refresh/1/mode/default",
+                dataType: "json",
+                cache: false,
+                success: function (data) {
+
+                    if (data["url"])
+                        el.attr("src", data["url"]);
+                }
+            });
+        }
+
+        $(".captcha").click(picCode);
+
+        function showDialog() {
+            $(".dialog-wrap").show().on('touchmove', function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                return false;
+            });
+        }
+
+        //btn-1
+        $("#catchBtn").on("click", function () {
+            mobile = $("#mobile").val().replace(/\s/g, "");
+
+            if (mobile == '') {
+                $("#telFormErr").html("请输入手机号");
+                return false;
+            } else if (!/^1\d{10}$/.test(mobile)) {
+                $("#telFormErr").html("手机号码格式错误");
+                return false;
+            }
+
+            $.ajax(location.origin + '/activity/auth/sms',{
+              type : 'post',
+              data:{
+                mobile: mobile,
+              },
+              headers : {
+                "X-Udid": ua,
+              },
+              success : function (result){
+                if (result.code == 3016) {//老用户
+                    showDialog();
+                } else {//新用户
+                    $("#mobile").prop("disabled", "true");
+                    $("#telFormErr").html("");
+                    $('#smsForm').slideDown();
+                    $("#catchBtn").hide();
+                    $("#subBtn").show();
+                    if (result.data.captcha != undefined) {
+                        $('.picCodeRow2').attr("must", "true").show();
+                        return;
+                    }
+                    countDown();
+                }
+              }
+            });
+        });
+
+        //btn-2
+        $("#subBtn").click(function () {
+            var smsCode = $.trim($('#smsCode').val());
+            var pwd = $.trim($('#pwd').val());
+
+            if (smsCode == '') {
+                $("#telFormErr").html("请输入短信验证码");
+                return false;
+            } else if (!/^[0-9]{4,6}$/.test(smsCode)) {
+                $('#telFormErr').html('短信验证码错误');
+                return false;
+            }
+            ;
+
+            if (pwd == '') {
+                $("#telFormErr").html("请输入密码");
+                return false;
+            } else if (!/^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,32}$/.test(pwd)) {
+                $('#telFormErr').html('密码格式错误');
+                return false;
+            }
+            ;
+
+            if (subFlag) return;
+            subFlag = true;
+
+            //register
+            $.ajax('/activity/auth/RegAndLogin',{
+              type : 'post',
+              data:{
+                mobile: mobile,
+                password: pwd,
+                vCode: smsCode
+              },
+              headers : {
+                "X-Udid": ua,
+              },
+              success : function (result){
+                if (result.success == true) {
+                    $('#telForm').hide();
+                    $('#downForm').show();
+                } else {
+                    $("#telFormErr").html(result.message);
+                    $(".captcha").trigger("click");
+                    subFlag = false;
+                }
+              }
+            });
+        });
+
+        //发短信
+        $("#sendCode").click(function () {
+            if ($(".picCodeRow2").attr("must") === "true") {
+                var picCode = $.trim($("#picCode").val());
+                if (picCode == '') {
+                    $("#telFormErr").html("请输入图形验证码");
+                    $(".captcha").trigger("click");
+                    return false;
+                } else if (!/^\w{4,6}$/.test(picCode)) {
+                    $("#telFormErr").html("验证码不正确");
+                    $(".captcha").trigger("click");
+                    return false;
+                }
+            }
+            if (flage) return;
+            flage = true;
+            //picCode
+            $.post(location.origin + "/activity/auth/sms", {
+                mobile: mobile,
+                vCode: picCode
+            }, function (result) {
+                if (result.resultCode == 1) {
+                    $('.picCodeRow2').attr("must", "true").slideDown();
+                    $("#telFormErr").html(result.data.mobile || result.data.captcha);
+                    $(".captcha").trigger("click");
+                    flage = false;
+                } else {
+                    $("#telFormErr").html("");
+                    countDown();
+                }
+            });
+        });
+
+        function countDown() {
+            flage = true;
+            var sec = 60;
+            var tip_int = setInterval(function () {
+                sec--;
+                if (sec > 0) {
+                    $("#sendCode").html("已发送(" + sec + ")");
+                } else {
+                    clearInterval(tip_int);
+                    $("#sendCode").html("重新发送");
+                    flage = false;
+                }
+            }, 1000);
+            $("#sendCode").html("已发送(60)");
+            return false;
+        }
+
+    })
+</script>
+
+</body>
+</html>

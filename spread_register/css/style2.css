@@ -1,0 +1,459 @@
+.fs12 {
+    font-size: 0.12rem;
+}
+.fs14 {
+    font-size: 0.14rem;
+}
+.fs16 {
+    font-size: 0.16rem;
+}
+.pos-r {
+    position: relative;
+}
+
+.pos-a {
+    position: absolute;
+}
+.picCodeRow2, #smsForm, #downForm, #subBtn, .cont, .showPw {
+    display: none;
+}
+
+.tenWrap{
+    text-align: center;
+}
+.tenWrap .tenContent{
+    padding-top:0.2rem;
+}
+
+.registerWrap .registerForm .formRow{
+    margin-left: 0.12rem;
+    margin-right: 0.12rem;
+    height: 0.4rem;
+    margin-bottom: 0.1rem;
+}
+.registerWrap .registerForm input{
+    font-size: 0.15rem;
+    width:100%;
+    height: 100%;
+    padding-left: 0.22rem;
+    border: 1px solid #E33133;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-weight: lighter;
+    border-radius: 0.04rem;
+    color: #FF918C;
+}
+.registerWrap .registerForm input::-webkit-input-placeholder{
+    color: #FF918C;
+}
+.registerWrap .registerForm input::-moz-placeholder{
+    color: #FF918C;
+}
+.registerWrap .registerForm input:-ms-input-placeholder{
+    color: #FF918C;
+}
+.registerWrap .registerForm .smsInp{
+    width:1.98rem;
+}
+.registerWrap .registerForm .picCode{
+    width: 0.93rem;
+    height: 100%;
+    border: 1px solid #C68300;
+    border-radius: 0.06rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.registerWrap .registerForm .picCode img{
+    height: 100%;
+}
+.registerWrap .registerForm .errorTip{
+    color:#FF3947;
+    font-size: 0.14rem;
+    margin-bottom: 0.10rem;
+}
+.registerWrap .registerForm .agreeRow{
+    margin-top: 0.1rem;
+    text-align: center;
+    color: #DD3F3B;
+}
+.registerWrap .registerForm .agreeRow a{
+    color: #DD3F3B;
+}
+.registerWrap .registerForm .button{
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+    text-align: center;
+    height: 0.49rem;
+    line-height: 0.49rem;
+    background: #DD3F3B;
+    border-radius: 0.49rem;
+    font-size: 0.15rem;
+    color: #fff;
+}
+.registerWrap .registerForm .getBtn{
+    height: 0.36rem;
+    line-height: 0.36rem;
+    margin-top: 0.1rem;
+    display: block;
+}
+.registerWrap .smsForm .sendSms {
+    border: none;
+}
+.registerWrap .registerForm .sendCode{
+    color: #fff;
+    background: #E33133;
+    height: 100%;
+    line-height: 0.40rem;
+    font-size: 0.15rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: none;
+    border-radius: 0.06rem;
+}
+.registerWrap .smsForm .noticeRow{
+    color: #C68300;
+    font-size: 0.15rem;
+    line-height: 0.22rem;
+    margin-bottom: 0.1rem;
+}
+.registerWrap .smsForm .noticeRow .changeTel{
+    width:0.4rem;
+    height:0.2rem;
+    line-height: 0.2rem;
+    color:#FF3947;
+    font-size: 0.15rem;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #FF3947;
+    border-radius: 0.04rem;
+}
+
+.tenProducts {
+    margin-top: 0.03rem;
+    height: 0.5rem;
+    background: url("../images/ten-products.png") no-repeat;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.tenProducts h2{
+    padding-top: 0.08rem;
+    color: #DD3F3B;
+    width: 85%;
+    line-height: 0.5rem;
+    text-align: center;
+}
+.tenProducts img{
+    float: left;
+    margin-left: 0.15rem;
+    width: 0.25rem;
+    height: 0.35rem;
+}
+.tenWrap h2{
+    font-size: 0.14rem;
+    line-height: 0.36rem;
+    color: #FF5134;
+    font-weight: lighter;
+}
+
+.tenWrap .tenTime{
+    position: relative;
+}
+.tenWrap .tenRule{
+    border-radius: 0.06rem;
+    background: #DD3F3B;
+    padding:0 0.12rem 0.1rem;
+    color: #fff;
+}
+.tenWrap .tenRule-bg{
+    margin-top: -0.5rem;
+    padding-top: 0.8rem;
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    padding-bottom: 0.1rem;
+    background: url("../images/tenrule-bg.png") no-repeat ;
+    background-size:3.25rem 3.1rem;
+}
+.dollar-symbol-3{
+    margin-left: -0.2rem;
+    margin-top: -0.5rem;
+    position: absolute;
+    width: 0.23rem;
+    height: 0.25rem
+}
+.line{
+    margin-top: -0.05rem;
+    height: 0.02rem;
+    border-radius: 0.02rem;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    background: #ffffff;
+}
+.tenWrap .tenRule li{
+    position: relative;
+    padding-left: 0.12rem;
+    margin-bottom: 0.10rem;
+}
+.tenWrap .tenRule li:before{
+    content: '';
+    position: absolute;
+    width:0.05rem;
+    height:0.05rem;
+    background: #FFD109;
+    border-radius: 50%;
+    left: 0;
+    top: 0.06rem;
+}
+.tenWrap .tenRule .tenRuleInfo{
+    margin-top: 0.15rem;
+    text-align: left;
+    line-height: 0.2rem;
+    font-size: 0.12rem;
+}
+.tenWrap .tenRule h2{
+    padding-top: 0.1rem;
+    color:#fff;
+}
+.line{
+    margin-top: -0.05rem;
+    height: 0.02rem;
+    border-radius: 0.02rem;
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+    background: #ffffff;
+}
+.tenWrap .tenReward{
+    margin-top: 0.12rem;
+    font-size: 0.12rem;
+    color:#DD3F3B;
+    line-height: 0.2rem;
+    background: url(../images/hua-v1.png) no-repeat center 0.06rem;
+    -webkit-background-size: 0.35rem;
+    background-size: 0.35rem;
+    display: inline-block;
+    padding-top: 0.50rem;
+}
+
+.company-info p{
+    color: #fff;
+    padding-bottom: 0.06rem;
+}
+.company-info .notice{
+    color: #E33133;
+}
+.company-info .about img {
+    width: 2.78rem;
+    margin: 0 auto;
+}
+.about-1{
+    position: absolute;
+    bottom:0;
+}
+
+.topBar{
+    width:100%;
+    height: 0.40rem;
+    line-height: 0.4rem;
+    background: #fff;
+    color: #666666;
+    font-size: 0.12rem;
+    max-width: 640px;
+}
+.topBar .logo{
+    width:0.62rem;
+    padding:0.08rem 0.1rem 0 0.12rem;
+    display: inline-block;
+    vertical-align: top;
+}
+/* 产品 */
+.product-list {
+    padding: 0.10rem 0.12rem 0;
+    color: #F65D56;
+}
+.product-item {
+    position: relative;
+    background: #fff;
+    border-radius: 0.06rem;
+    border: 1px dashed #004B72;
+    margin-bottom: 0.25rem;
+}
+.product-title {
+    padding: 0.06rem 0.15rem;
+    background: #004B72;
+    border-radius: 1rem;
+    position: absolute;
+    left: 0.18rem;
+    top: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.product-title img {
+    width: 0.46rem;
+}
+.last-item .product-title img {
+    width: 0.60rem;
+}
+.product-info {
+    padding: 0.24rem 0 0.10rem;
+}
+.product-info .product-desc:not(:first-of-type) {
+    padding-top: 0.17rem;
+}
+
+.product-desc {
+    float: left;
+    position: relative;
+}
+.product-desc1{
+    width: 40%;
+}
+.product-desc2{
+    width: 35%;
+}
+.product-desc3{
+    width: 25%;
+}
+.product-info .line-desc:before,
+.product-info .line-desc:after {
+    content: '';
+    width: 1px;
+    height: 0.28rem;
+    background: #F65D56;
+    position: absolute;
+    bottom: 0.04rem;
+    left: 0.06rem;
+}
+.product-info .line-desc:after {
+    height: 0.10rem;
+    right: 0.04rem;
+    left: auto;
+}
+.last-item .line-desc:after {
+    right: 0;
+}
+.last-item .line-desc:before {
+    /* left: -0.02rem; */
+    left: 0;
+}
+
+.product-desc .fs16 {
+    height: 0.16rem;
+    padding-bottom: 0.04rem;
+    font-weight: normal;
+}
+.product-tip {
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    background: #E33133;
+    color: #fff;
+    padding: 0.03rem 0.06rem 0.03rem 0.16rem;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    border-top-right-radius: 0.06rem;
+}
+.product-tip:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 0.11rem solid transparent;
+    border-left-color: #fff;
+}
+/* dialog */
+.dialog-wrap {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.dialog {
+    width: 2.4rem;
+    height: 1.10rem;
+    border-radius: 0.04rem;
+    background: #FFE8E8;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.dialog-cont {
+    color: #F65D56;
+    font-size: 0.16rem;
+    padding: 0.20rem 0;
+}
+.dialog-btn {
+    padding: 0 0.14rem;
+    height: 0.30rem;
+    line-height: 0.30rem;
+    background: #F65D56;
+    color: #FFE8E8;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+/* 显示密码 */
+#pwdRow {
+    position: relative;
+}
+.pw-status {
+    width: 0.15rem;
+    height: 0.15rem;
+    position: absolute;
+    right: 0.15rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.receive-bag {
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    height: 2.23rem;
+    background: url("../images/quan.png") no-repeat;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+}
+.receive-bag .pos-a {
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.receive-tip1 {
+    top: 0.46rem;
+    color: #ffffff;
+    font-size: 0.15rem;
+}
+.receive-tip2 {
+    top: 0.75rem;
+    color: #EA4C3C;
+    font-size: 0.2rem;
+}
+.receive-tip3 {
+    top: 1rem;
+    color: #999999;
+    font-size: 0.12rem;
+}
+.receive-bag .getBtn {
+    bottom: 0.20rem;
+    width: 2.5rem !important;
+}
+.downBtn-1{
+    display: block;
+    text-align: center;
+    height: 0.36rem;
+    line-height: 0.36rem;
+    border-radius: 0.36rem;
+    font-size: 0.15rem;
+    color: #DD3F3B;
+    background: #FFE33F;
+}
